@@ -13,15 +13,42 @@
 ## Установка
 1. Клонируйте репозиторий или загрузите файл скрипта (`main.py`) на свой локальный компьютер.
 
-2. Установите необходимые зависимости, выполнив следующую команду:
+2. - pip install altgraph==0.17.3
+- pip install async-generator==1.10
+- pip install attrs==23.1.0
+- pip install certifi==2023.5.7
+- pip install cffi==1.15.1
+- pip install colorama==0.4.6
+- pip install exceptiongroup==1.1.1
+- pip install h11==0.14.0
+- pip install idna==3.4
+- pip install outcome==1.2.0
+- pip install pefile==2023.2.7
+- pip install pycparser==2.21
+- pip install pyinstaller==5.10.1
+- pip install pyinstaller-hooks-contrib==2023.3
+- pip install pyinstaller-hooks-contrib==2023.3
+- pip install pyinstaller-hooks-contrib==2023.3
+- pip install PySocks==1.7.1
+- pip install pywin32-ctypes==0.2.0
+- pip install selenium==4.9.1
+- pip install sniffio==1.3.0
+- pip install sortedcontainers==2.4.0
+- pip install tqdm==4.65.0
+- pip install trio==0.22.0
+- pip install trio-websocket==0.10.2
+- pip install urllib3==2.0.2
+- pip install wsproto==1.2.0
+
+3. Установите необходимые зависимости, выполнив следующую команду:
    ```
    pip install -r requirements.txt
    ```
 
-3. Загрузите ChromeDriver с официального веб-сайта: https://developer.chrome.com/docs/chromedriver/downloads?hl=ru
+4. Загрузите ChromeDriver с официального веб-сайта: https://developer.chrome.com/docs/chromedriver/downloads?hl=ru
    Убедитесь, что загружена версия, совместимая с вашим браузером Chrome.
 
-4. Извлеките исполняемый файл ChromeDriver в выбранное вами место и укажите путь к файлу.
+5. Извлеките исполняемый файл ChromeDriver в выбранное вами место и укажите путь к файлу.
 
 ## Использование
 1. Подготовьте входной файл:
